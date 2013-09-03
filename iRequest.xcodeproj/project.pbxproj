@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55214CD417CE1FBF00AAA4F8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55214CD217CE1FBF00AAA4F8 /* Icon.png */; };
+		55214CD517CE1FBF00AAA4F8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55214CD317CE1FBF00AAA4F8 /* Icon@2x.png */; };
+		55214CDD17CE345300AAA4F8 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55214CDC17CE345300AAA4F8 /* libGoogleAnalyticsServices.a */; };
+		55214CDF17CE348300AAA4F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55214CDE17CE348300AAA4F8 /* CoreData.framework */; };
+		55214CE117CE349200AAA4F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55214CE017CE349200AAA4F8 /* SystemConfiguration.framework */; };
+		55214CE317CE349E00AAA4F8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55214CE217CE349E00AAA4F8 /* libz.dylib */; };
 		55A3549B17CCC44F00387B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A3549A17CCC44F00387B71 /* Foundation.framework */; };
 		55A3549D17CCC44F00387B71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A3549C17CCC44F00387B71 /* CoreGraphics.framework */; };
 		55A3549F17CCC44F00387B71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A3549E17CCC44F00387B71 /* UIKit.framework */; };
@@ -14,13 +20,16 @@
 		55A354A717CCC44F00387B71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A354A617CCC44F00387B71 /* main.m */; };
 		55A354AB17CCC44F00387B71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A354AA17CCC44F00387B71 /* AppDelegate.m */; };
 		55A354AE17CCC44F00387B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A354AC17CCC44F00387B71 /* Main.storyboard */; };
-		55A354B117CCC44F00387B71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A354B017CCC44F00387B71 /* ViewController.m */; };
+		55A354B117CCC44F00387B71 /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A354B017CCC44F00387B71 /* RequestViewController.m */; };
 		55A354B317CCC44F00387B71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A354B217CCC44F00387B71 /* Images.xcassets */; };
 		55A354BA17CCC44F00387B71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A354B917CCC44F00387B71 /* XCTest.framework */; };
 		55A354BB17CCC44F00387B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A3549A17CCC44F00387B71 /* Foundation.framework */; };
 		55A354BC17CCC44F00387B71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A3549E17CCC44F00387B71 /* UIKit.framework */; };
 		55A354C417CCC44F00387B71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55A354C217CCC44F00387B71 /* InfoPlist.strings */; };
 		55A354C617CCC44F00387B71 /* iRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A354C517CCC44F00387B71 /* iRequestTests.m */; };
+		55A354D117CCDA6200387B71 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A354D017CCDA6200387B71 /* CoreText.framework */; };
+		55A354D517CCDD5500387B71 /* Request.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55A354D417CCDD5500387B71 /* Request.xib */; };
+		55A354D817CCF55900387B71 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A354D717CCF55900387B71 /* PDFViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55214CD217CE1FBF00AAA4F8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		55214CD317CE1FBF00AAA4F8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		55214CD617CE344400AAA4F8 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		55214CD717CE344400AAA4F8 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		55214CD817CE344400AAA4F8 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		55214CD917CE344400AAA4F8 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		55214CDA17CE344400AAA4F8 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		55214CDB17CE344400AAA4F8 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		55214CDC17CE345300AAA4F8 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		55214CDE17CE348300AAA4F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55214CE017CE349200AAA4F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		55214CE217CE349E00AAA4F8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		55A3549717CCC44F00387B71 /* iRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A3549A17CCC44F00387B71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55A3549C17CCC44F00387B71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +66,19 @@
 		55A354A917CCC44F00387B71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55A354AA17CCC44F00387B71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		55A354AD17CCC44F00387B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		55A354AF17CCC44F00387B71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55A354B017CCC44F00387B71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55A354AF17CCC44F00387B71 /* RequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		55A354B017CCC44F00387B71 /* RequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
 		55A354B217CCC44F00387B71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55A354B817CCC44F00387B71 /* iRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A354B917CCC44F00387B71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		55A354C117CCC44F00387B71 /* iRequestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRequestTests-Info.plist"; sourceTree = "<group>"; };
 		55A354C317CCC44F00387B71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55A354C517CCC44F00387B71 /* iRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRequestTests.m; sourceTree = "<group>"; };
+		55A354CF17CCCF2000387B71 /* RequestConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestConstants.h; sourceTree = "<group>"; };
+		55A354D017CCDA6200387B71 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		55A354D417CCDD5500387B71 /* Request.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Request.xib; sourceTree = "<group>"; };
+		55A354D617CCF55900387B71 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		55A354D717CCF55900387B71 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +86,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55214CE317CE349E00AAA4F8 /* libz.dylib in Frameworks */,
+				55214CE117CE349200AAA4F8 /* SystemConfiguration.framework in Frameworks */,
+				55214CDF17CE348300AAA4F8 /* CoreData.framework in Frameworks */,
+				55A354D117CCDA6200387B71 /* CoreText.framework in Frameworks */,
 				55A3549D17CCC44F00387B71 /* CoreGraphics.framework in Frameworks */,
 				55A3549F17CCC44F00387B71 /* UIKit.framework in Frameworks */,
+				55214CDD17CE345300AAA4F8 /* libGoogleAnalyticsServices.a in Frameworks */,
 				55A3549B17CCC44F00387B71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +132,10 @@
 		55A3549917CCC44F00387B71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55214CE217CE349E00AAA4F8 /* libz.dylib */,
+				55214CE017CE349200AAA4F8 /* SystemConfiguration.framework */,
+				55214CDE17CE348300AAA4F8 /* CoreData.framework */,
+				55A354D017CCDA6200387B71 /* CoreText.framework */,
 				55A3549A17CCC44F00387B71 /* Foundation.framework */,
 				55A3549C17CCC44F00387B71 /* CoreGraphics.framework */,
 				55A3549E17CCC44F00387B71 /* UIKit.framework */,
@@ -112,13 +147,25 @@
 		55A354A017CCC44F00387B71 /* iRequest */ = {
 			isa = PBXGroup;
 			children = (
+				55214CDC17CE345300AAA4F8 /* libGoogleAnalyticsServices.a */,
+				55214CD617CE344400AAA4F8 /* GAI.h */,
+				55214CD717CE344400AAA4F8 /* GAIDictionaryBuilder.h */,
+				55214CD817CE344400AAA4F8 /* GAIFields.h */,
+				55214CD917CE344400AAA4F8 /* GAILogger.h */,
+				55214CDA17CE344400AAA4F8 /* GAITrackedViewController.h */,
+				55214CDB17CE344400AAA4F8 /* GAITracker.h */,
+				55214CD217CE1FBF00AAA4F8 /* Icon.png */,
+				55214CD317CE1FBF00AAA4F8 /* Icon@2x.png */,
 				55A354A917CCC44F00387B71 /* AppDelegate.h */,
 				55A354AA17CCC44F00387B71 /* AppDelegate.m */,
 				55A354AC17CCC44F00387B71 /* Main.storyboard */,
-				55A354AF17CCC44F00387B71 /* ViewController.h */,
-				55A354B017CCC44F00387B71 /* ViewController.m */,
-				55A354B217CCC44F00387B71 /* Images.xcassets */,
+				55A354CF17CCCF2000387B71 /* RequestConstants.h */,
+				55A354AF17CCC44F00387B71 /* RequestViewController.h */,
+				55A354B017CCC44F00387B71 /* RequestViewController.m */,
 				55A354A117CCC44F00387B71 /* Supporting Files */,
+				55A354D417CCDD5500387B71 /* Request.xib */,
+				55A354D617CCF55900387B71 /* PDFViewController.h */,
+				55A354D717CCF55900387B71 /* PDFViewController.m */,
 			);
 			path = iRequest;
 			sourceTree = "<group>";
@@ -126,6 +173,7 @@
 		55A354A117CCC44F00387B71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55A354B217CCC44F00387B71 /* Images.xcassets */,
 				55A354A217CCC44F00387B71 /* iRequest-Info.plist */,
 				55A354A317CCC44F00387B71 /* InfoPlist.strings */,
 				55A354A617CCC44F00387B71 /* main.m */,
@@ -229,6 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A354B317CCC44F00387B71 /* Images.xcassets in Resources */,
+				55214CD517CE1FBF00AAA4F8 /* Icon@2x.png in Resources */,
+				55A354D517CCDD5500387B71 /* Request.xib in Resources */,
+				55214CD417CE1FBF00AAA4F8 /* Icon.png in Resources */,
 				55A354A517CCC44F00387B71 /* InfoPlist.strings in Resources */,
 				55A354AE17CCC44F00387B71 /* Main.storyboard in Resources */,
 			);
@@ -249,9 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A354B117CCC44F00387B71 /* ViewController.m in Sources */,
+				55A354B117CCC44F00387B71 /* RequestViewController.m in Sources */,
 				55A354AB17CCC44F00387B71 /* AppDelegate.m in Sources */,
 				55A354A717CCC44F00387B71 /* main.m in Sources */,
+				55A354D817CCF55900387B71 /* PDFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +429,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRequest/iRequest-Prefix.pch";
 				INFOPLIST_FILE = "iRequest/iRequest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ivelin.ivanov/Documents/Projects/iRequest/iRequest,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +446,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRequest/iRequest-Prefix.pch";
 				INFOPLIST_FILE = "iRequest/iRequest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ivelin.ivanov/Documents/Projects/iRequest/iRequest,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,6 +514,7 @@
 				55A354CB17CCC44F00387B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55A354CC17CCC44F00387B71 /* Build configuration list for PBXNativeTarget "iRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +523,7 @@
 				55A354CE17CCC44F00387B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
